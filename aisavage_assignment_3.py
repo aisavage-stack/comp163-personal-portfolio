@@ -1,31 +1,31 @@
 full_name= "Aiyana Savage"
-student_email= "aisavage@ncat.edu"
+student_email= "aisavage@aggies.ncat.edu"
 hometown= "Baltimore, MD"
 graduation_semester = "Spring 2029"
 major= "Computer Engineering"
-current_course_list= ["COMP 163", "MATH 131", "ENG 100", "ECEN 101", "GEEN 100", "GEEN 101"]
-completed_course_list= ["N/A"]
-credit_hour_list= [3, 4, 3, 3, 2, 1]
-gpa_history_list= ["N/A"]
+current_course_list= ["COMP 163", "MATH 132", "ECEN 102", "PHYSICS 241", "ENGLISH 101", "PHYSICS 251"]
+completed_course_list= ["MATH 131", "ENG 100", "ECEN 101", "GEEN 100", "GEEN 101"]
+credit_hour_list= [3,4,3,3,3,3]
+gpa_history_list= [2.8]
 emergency_contact= ("Mom", "Shilonda Savage", "704-555-0199")
-home_address= ("456 Oak Street", "Baltimore, MD", 21206)
+home_address= ("4516 Oak Street", "Baltimore, MD", 21206)
 instagram_info=  ("Instagram", "@aiyanaaaaa.__", 1,701)
 twitter_info= ("Twitter", "@ineedpinkricks", 27)
 birthday= ("Birthday", 1, 8, 2007)
 current_skills= {"Python basics", "Problem solving", "Time management"}
 skills_to_learn= {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interests={"Software development", "Web development", "Data science", "Game development"}
+career_interests={"Software development", "Web development", "Data science", "Artificial Intelligence"}
 hobbies= {"Dancing", "Shopping", "Cheerleading", "Music"}
 entertainment_backlog= {"Empire", "Power", "BMF", "The CHI"}
-course_credits= {"COMP 163": 3, "MATH 131": 4, "ENG 100": 3, "ECEN 101": 3, "GEEN 100": 2, "GEEN 111": 1}
-course_professors={"COMP 163": "Prof. Rhodes", "MATH 131": "Prof. "Chen", "ENG 100": "Prof. Rush", "ECEN 101": "Prof. Horne", "GEEN 100": "Prof. Alford", "GEEN 111": "Dr. Parrish"}
-course_rooms= { "COMP 163": "M-Eric 300", "MATH 103": "Marteena 201", "ENG 100": "Crosby 121", "ECEN 101": "MCNAIR 210","GEEN 100": "GRAHAM 210", "GEEN 111": "MCNAIR 210" } 
+course_credits= {"COMP 163": 3, "MATH 132": 4, "ENG 101": 3, "ECEN 102": 3, "PHYSICS 241": 3, "PHYSICS 251": 3}
+course_professors={"COMP 163": "Prof. Rhodes", "MATH 132": "Prof. "Clemence", "ENG 101": "Prof. Rush", "ECEN 102": "Prof. Gilmore", "PHYSICS 241": "Prof. Seo", "PHYSICS 251": "Prof. Trauger" }
+course_rooms= { "COMP 163": "M-Eric 300", "MATH 102": "Online", "ENG 101": "GCB A105", "ECEN 102": "MONROE 214", "PHYSICS 241": "MARTEENA 310", "PHYSICS 251": "MARTEENA 315"} 
 monthly_budget= {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100}
-study_hours_per= {"Programming": 10, "Math": 8, "English": 4, "History": 3}
+study_hours_per= {"Programming": 10, "Math": 8, "English": 4, "Physics": 3}
 contact_directory= {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
 total_credits= sum(credit_hour_list)
 entertainment_budget= monthly_budget["Entertainment"]
-cumalative_gpa= (sum(gpa_history_list))/3
+cumalative_gpa= (gpa_history_list)
 total_courses= len(completed_course_list)
 total_study_hours= sum(study_hours_per.values())
 academic_load= (total_credits + total_study_hours)
@@ -48,7 +48,7 @@ print("Major:", major)
 print("")
 print("=== ACADEMIC PROFILE ===")
 print("Current Semester:", total_credits, "credits across 4 courses")
-print("Cumulative GPA: 4.0")
+print("Cumulative GPA: 2.8")
 print("Weekly Study Time:", total_study_hours, "hours")
 print("Academic Investment:", "$5.0 per study hour")
 print("")
