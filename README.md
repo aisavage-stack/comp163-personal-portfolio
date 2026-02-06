@@ -1,7 +1,7 @@
 # comp163-personal-portfolio
 # Assignment 3 
 ## Author 
-Aiyana Savage - COMP 163, Fall 2025 
+Aiyana Savage - COMP 163, Spring 2026
 ## Description 
 A Python program demonstrating my personal profile. 
 ## Features - Grades, contacts, Social Media, Hobbies ,etc. 
